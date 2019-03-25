@@ -1,7 +1,7 @@
 {
   "name": "todolist",
-  "version": "1.0.0",
-  "description": "A todo list created with javascript and jQuery.",
+  "version": "2.0.0",
+  "description": "A todo list created with javascript and jQuery with AJAX API feature to save data on MongoDB database.",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -10,7 +10,9 @@
   "author": "Nassim Hani Ikene",
   "license": "MIT",
   "dependencies": {
+    "body-parser": "^1.18.3",
     "ejs": "^2.6.1",
-    "express": "^4.16.4"
+    "express": "^4.16.4",
+    "mongoose": "^5.4.19"
   }
 }
